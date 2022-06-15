@@ -190,10 +190,11 @@ header {
 	width: 414px;
 	height: 722px;
 	border-radius: 20px;
+	margin-bottom: 81px;
 }
 
 .contact-header {
-	font-family: 'Plus Jakarta Sans';
+	font-family: 'Plus Jakarta Sans', serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 64px;
@@ -204,7 +205,7 @@ header {
 .contact-subtext {
 	width: 568px;
 	height: 120px;
-	font-family: 'Poppins';
+	font-family: 'Poppins', sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 20px;
@@ -218,15 +219,233 @@ header {
 
 .feedback-header {
 	padding-top: 61px;
-	font-family: 'Plus Jakarta Sans';
+	font-family: 'Plus Jakarta Sans', serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 48px;
 	line-height: 150%;
 	color: #00214D;
 	text-align: center;
+	margin-bottom: 31px;
 }
 
-.card-feedback {
-	width: 720px;
+.carousel-card_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.carousel-card {
+	width: 50%;
+	height: 750px;
+	border-radius: 0px;
+}
+
+.carousel-card_body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.carousel-img_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.carousel-card_img {
+	width: 150px;
+	height: 150px;
+	margin: 84px 0 52px 118px;
+}
+
+.carousel-card_title {
+	width: 319px;
+	height: 50px;
+	font-family: 'Plus Jakarta Sans', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 150%;
+	color: #00214D;
+	margin-bottom: 16px;
+}
+
+.carousel-card_text {
+	width: 509px;
+	height: 180px;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 150%;
+	text-align: center;
+	color: #3A3A3A;
+}
+
+.carousel-control-next {
+	display: flex;
+	align-items: center;
+	position: relative;
+	font-family: 'Plus Jakarta Sans', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 150%;
+	color: #3781E3;
+	opacity: 1;
+	width: 250px;
+	margin-right: 200px;
+}
+
+.carousel-control-next:hover {
+	color: #3781E3;
+}
+
+.carousel-button_text {
+	margin: 0;
+}
+
+
+.carousel-card_footer {
+	margin-left: 130px;
+}
+
+.footer-card_col {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 19px;
+}
+
+.footer-img {
+	margin-right: 26px;
+	width: 50px;
+	height: 50px;
+}
+
+.footer-card_name {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	font-family: 'Plus Jakarta Sans', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 150%;
+	letter-spacing: 0.05em;
+	color: #00214D;
+	margin-bottom: 0;
+}
+
+.footer-rating_col {
+	display: flex;
+	align-items: center;
+}
+
+.footer-card_stars {
+	margin-right: 26px;
+}
+
+.footer-card_rating {
+	font-family: 'Plus Jakarta Sans', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 150%;
+	letter-spacing: 0.05em;
+	color: #3A3A3A;
+}
+
+.experts-container {
+	padding-top: 128px;
+	background-color: #D5E5F5;
+}
+
+.experts-container_header {
+	text-align: center;
+	font-family: 'Plus Jakarta Sans', serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 150%;
+	color: #00214D;
+	margin-bottom: 64px;
+}
+
+.experts-container_button {
+	display: flex;
+	align-items: center;
+	border: none;
+	background-color: inherit;
+}
+
+.experts-button_text {
+	margin: 0 16px 0 0;
+	font-family: 'Plus Jakarta Sans', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 150%;
+	color: #3781E3;
+}
+
+.expert-card {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	height: 850px;
+}
+
+.expert-card_title {
+	font-family: 'Plus Jakarta Sans', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 150%;
+	color: #00214D;
+	text-align: center;
+}
+
+.expert-card_text {
+	font-family: 'Plus Jakarta Sans', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 150%;
+	color: #3A3A3A;
+}
+
+.expert-card_img {
+	width: 350px;
+	height: 715px;
+}
+
+.subscribe-container {
+	background-color: #E9F4FF;
+	margin-bottom: 84px;
+	margin-top: 84px;
+	padding: 100px 30px 143px 42px;
+	border-radius: 20px;
+}
+
+.subscribe-header {
+	text-align: center;
+	margin-bottom: 64px;
+}
+
+.input-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	border-radius: 20px;
+	width: 1106px;
+	height: 169px;
+}
+
+.email-input {
+	width: 50%;
+	border: none;
 }
