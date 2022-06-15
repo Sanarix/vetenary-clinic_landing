@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+
+header {
+	padding-top: 32px;
+	background-color: #D5E5F5;
+}
+
+.header-logo {
+	font-family: 'Pacifico', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+	letter-spacing: 0.1em;
+	color: #3781E3;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.nav-link {
+	width: 74px;
+	height: 36px;
+}
+
+.nav-link .link {
+	text-decoration: none;
+	font-family: 'Plus Jakarta Sans', serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 150%;
+	letter-spacing: 0.045em;
+	color: #00214D;
+}
+.line-container {
+	margin-top: 100px;
+}
+
+.line-container .line {
+	width: 120px;
+	height: 0px;
+	border: 2px solid #00214D;
+	background-color: #00214D;
+}
+
+.line-container .line::before {
+	content: "Vetinary Clinic";
+	position: relative;
+	display: block;
+	top: -20px;
+	left: 120%;
+	width: 194px;
+	height: 36px;
+	font-family: 'Plus Jakarta Sans', serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 150%;
+	letter-spacing: 0.085em;
+	color: #00214D;
+}
+
+.origin-container{
+	margin-top: 28px;
+	padding: 10px;
+	max-height: 500px;
+}
+
+.header-origin {
+	width: 644px;
+	height: 215px;
+	left: 128px;
+	top: 228px;
+}
+
+.header-origin h1 {
+	font-family: 'Plus Jakarta Sans', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 70px;
+	line-height: 150%;
+	color: #00214D;
+}
+
+.header-subtext {
+	width: 644px;
+	height: 72px;
+	left: 128px;
+	top: 469px;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 150%;
+	letter-spacing: 0.05em;
+	color: rgba(58, 58, 58, 0.75);
+}
+
+.start-button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+	padding: 32px;
+	width: 213px;
+	height: 80px;
+	background: #3781E3;
+	border-radius: 20px;
+	border: none;
+	color: #fff;
+	font-family: 'Plus Jakarta Sans', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 150%;
+	letter-spacing: 0.1em;
+	user-select: none;
+}
+
+.container-img {
+	overflow: hidden;
+}
+
+.img {
+	position: relative;
+	top: -250px;
+	width: 500px;
+	height: 800px;
+	margin-left: 15%;
+}
+
+.offers {
+	background-color: #E9F4FF;
+	padding-top: 64px;
+}
+
+
+.offers-header {
+	width: 377px;
+	height: 59px;
+	left: 531px;
+	top: 64px;
+	font-family: 'Plus Jakarta Sans', serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 150%;
+	color: #00214D;
+	align-content: center;
+	margin: 0 auto;
+}
+
+.offers-subtext {
+	text-align: center;
+	height: 36px;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 150%;
+	letter-spacing: 0.05em;
+	color: #3A3A3A;
+	margin-top: 16px;
+	margin-bottom: 64px;
+}
+
+.card{
+	width: 350px;
+	height: 350px;
+	margin-bottom: 64px;
+	border-radius: 20px;
+}
