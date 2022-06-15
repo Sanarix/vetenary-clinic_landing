@@ -127,7 +127,7 @@ header {
 
 .img {
 	position: relative;
-	top: -250px;
+	top: -240px;
 	width: 500px;
 	height: 800px;
 	margin-left: 15%;
@@ -168,9 +168,65 @@ header {
 	margin-bottom: 64px;
 }
 
-.card{
+.card {
 	width: 350px;
 	height: 350px;
 	margin-bottom: 64px;
 	border-radius: 20px;
+}
+
+.card-img {
+	width: 80px;
+	height: 80px;
+	margin-bottom: 78px;
+}
+
+.contact-container {
+	background-color: #D5E5F5;
+	padding-top: 100px;
+}
+
+.contact-img {
+	width: 414px;
+	height: 722px;
+	border-radius: 20px;
+}
+
+.contact-header {
+	font-family: 'Plus Jakarta Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 150%;
+	color: #00214D;
+}
+
+.contact-subtext {
+	width: 568px;
+	height: 120px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 150%;
+	color: #3A3A3A;
+}
+
+.feedback-container {
+	background-color: #E9F4FF;
+}
+
+.feedback-header {
+	padding-top: 61px;
+	font-family: 'Plus Jakarta Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 150%;
+	color: #00214D;
+	text-align: center;
+}
+
+.card-feedback {
+	width: 720px;
 }
