@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
 
+.main-container {
+	max-width: 1440px;
+}
+
 header {
 	padding-top: 32px;
 	background-color: #D5E5F5;
@@ -434,18 +438,44 @@ header {
 	text-align: center;
 	margin-bottom: 64px;
 }
+.subscribe-button {
+	margin: 0;
+}
+
+.subscribe-form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 .input-container {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	background-color: #fff;
 	border-radius: 20px;
 	width: 1106px;
 	height: 169px;
+	padding: 5%;
+	margin: 0;
 }
 
 .email-input {
-	width: 50%;
+	width: 70%;
+	height: 50%;
 	border: none;
+	font-family: 'Plus Jakarta Sans', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 150%;
+	color: #00214D;
+	outline: none;
+	padding: 5%;
+	background-color: inherit;
+	border-radius: 10px;
+}
+
+footer {
+	background-color: #D5E5F5;
 }
