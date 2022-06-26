@@ -1,8 +1,6 @@
 'use strict'
 const inputContainer = document.querySelector('.input-container');
 const emailInput = document.querySelector('.email-input');
-console.log(inputContainer);
-
 
 function borderHighlight () {
 	emailInput.onfocus = function() {

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&family=Quicksand&display=swap');
 
 .main-container {
 	max-width: 1440px;
@@ -25,9 +26,7 @@ header {
 }
 
 .nav-link {
-	display: flex;
-	justify-content: center;
-	width: 74px;
+	text-align: center;
 	height: 36px;
 }
 
@@ -45,6 +44,8 @@ header {
 .nav-link .link::after {
 	content: '';
 	display: block;
+	width: 50%;
+	margin: 0 auto;
 	height: 2px;
 	border-radius: 5px;
 	background-color: #00214D;
@@ -121,6 +122,10 @@ header {
 	line-height: 150%;
 	letter-spacing: 0.05em;
 	color: rgba(58, 58, 58, 0.75);
+}
+
+.img-dog {
+	user-select: none;
 }
 
 .start-button {
@@ -507,5 +512,76 @@ header {
 }
 
 footer {
+	padding-top: 178px;
 	background-color: #D5E5F5;
 }
+
+.footer-header_logo {
+	text-align: center;
+}
+
+.nav-header {
+	text-align: left;
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 28px;
+	color: #00214D;
+	margin-bottom: 20px;
+	}
+
+	footer .nav-link {
+		font-family: 'Quicksand';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 22px;
+		color: #00214D;
+		text-align: left;
+		margin-bottom: 15px;
+	}
+
+	.socials {
+		padding: 0 50px 0;
+	}
+
+	.socials-img_container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 100px;
+		border-bottom: 1px solid #00214D;
+		padding-bottom: 17px;
+	}
+
+	.social-img {
+		width: 50px;
+		background-position: center;
+		margin-right: 40px;
+		cursor: pointer;
+	}
+
+	.socials-link {
+		cursor: default;
+		user-select: none;
+	}
+
+	.copyright {
+		padding: 50px 0;
+	}
+
+	.copyright-text {
+		font-family: 'Quicksand';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 22px;
+		color: #00214D;
+		text-align: center;
+	}
+
+	.my-link {
+		text-decoration: none;
+		color: inherit;
+	}
