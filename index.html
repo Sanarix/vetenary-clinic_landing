@@ -12,7 +12,7 @@
 	<title>Vet Clinic "Our Pet"</title>
 </head>
 <body>
-	<div class="container main-container">
+	<div class="container-md main-container">
 		<header>
 			<div class="container">
 				<div class="row">
@@ -20,12 +20,36 @@
 						<h6 class="header-logo">Our Pet</h4>
 					</div>
 					<nav class="col-8">
-						<div class="row">
+						<div class="row d-none d-md-flex">
 							<div class="col nav-link"><a class="link" href="#">Home</a></div>
 							<div class="col nav-link"><a class="link" href="#">Services</a></div>
 							<div class="col nav-link"><a class="link" href="#">Doctors</a></div>
 							<div class="col nav-link"><a class="link" href="#">About</a></div>
 							<div class="col nav-link"><a class="link" href="#">Contacts</a></div>
+						</div>
+						<!--.row-->
+						<div class="row d-block d-md-none">
+							<nav class="navbar">
+								<div class="container-fluid">
+									<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+										<span class="navbar-toggler-icon"></span>
+									</button>
+								</div>
+							</nav>
+							<div class="collapse burger-menu" id="navbarToggleExternalContent">
+								<div class="bg-info. g-gradient p-4">
+									<div class="col nav-link"><a class="link" href="#">Home
+									</a></div>
+									<div class="col nav-link"><a class="link" href="#">Services
+									</a></div>
+									<div class="col nav-link"><a class="link" href="#">Doctors
+									</a></div>
+									<div class="col nav-link"><a class="link" href="#">About
+									</a></div>
+									<div class="col nav-link"><a class="link" href="#">Contacts
+									</a></div>
+								</div>
+							</div>
 						</div>
 						<!-- .row -->
 					</nav>
@@ -43,9 +67,9 @@
 				<!-- .row -->
 			</div>
 			<!-- .container -->
-			<div class="container origin-container">
+			<div class="container-fluid-md origin-container">
 				<div class="row align-items-start">
-					<div class="col col-6">
+					<div class="col-6 col-md-8 header-origin_text container-fluid">
 						<div class="header-origin">
 							<h1>Your Amazing Pets<br> are Important to us</h1>
 						</div>
@@ -56,7 +80,7 @@
 							<button class="start-button">Get started</button>
 						</div>
 					</div>
-					<div class="col-6 container-img">
+					<div class="col-6 col-md-4 container-img d-none d-lg-block">
 						<img src="./img/Dog.svg" class="img img-fluid img-dog" alt="Dog">
 					</div>
 				</div>
@@ -67,8 +91,8 @@
 		<main>
 			<div class="container-fluid offers">
 				<div class="container offers-header_container">
-					<div class="row justify-content-center">
-						<div class="col">
+					<div class="row">
+						<div class="col mb-4">
 							<h2 class="offers-header">What we Offer?</h2>
 							<p class="offers-subtext">We offer a wide range of services which includes the following below</p>
 						</div>
@@ -78,7 +102,7 @@
 				<!-- .container offers-header_container -->
 				<div class="container cards-container">
 					<div class="row">
-						<div class="col">
+						<div class="col col-sm col-md-6 col-xl-4">
 							<div class="card">
 								<div class="card-body">
 									<img class="card-img card-img-top" src="./img/icons/Group 2179.svg" alt="icon">
@@ -90,7 +114,7 @@
 							<!-- .card -->
 						</div>
 						<!-- .col -->
-						<div class="col">
+						<div class="col col-sm col-md-6 col-xl-4">
 							<div class="card">
 								<div class="card-body">
 									<img class="card-img card-img-top" src="./img/icons/Group 2176.svg" alt="icon">
@@ -102,7 +126,7 @@
 							<!-- .card -->
 						</div>
 						<!-- .col -->
-						<div class="col">
+						<div class="col col-sm col-md-6 col-xl-4">
 							<div class="card">
 								<div class="card-body">
 									<img class="card-img card-img-top" src="./img/icons/Group 2177.svg" alt="icon">
@@ -114,10 +138,7 @@
 							<!-- .card -->
 						</div>
 						<!-- .col -->
-					</div>
-					<!-- .row -->
-					<div class="row">
-						<div class="col">
+						<div class="col col-sm col-md-6 col-xl-4">
 							<div class="card">
 								<div class="card-body">
 									<img class="card-img card-img-top" src="./img/icons/Group 2175.svg" alt="icon">
@@ -129,7 +150,7 @@
 							<!-- .card -->
 						</div>
 						<!-- .col -->
-						<div class="col">
+						<div class="col col-sm col-md-6 col-xl-4">
 							<div class="card">
 								<div class="card-body">
 									<img class="card-img card-img-top" src="./img/icons/Group 2180.svg" alt="icon">
@@ -141,7 +162,7 @@
 							<!-- .card -->
 						</div>
 						<!-- .col -->
-						<div class="col">
+						<div class="col col-sm col-md-6 col-xl-4">
 							<div class="card">
 								<div class="card-body">
 									<img class="card-img card-img-top" src="./img/icons/Group 2178.svg" alt="icon">
@@ -160,13 +181,13 @@
 			</div>
 			<!-- .container offers-->
 			<div class="container-fluid contact-container">
-				<div class="row">
-					<div class="col-md-2"></div>
-					<div class="col-6 col-sm-4">
+				<div class="row d-flex flex-column-reverse flex-lg-row justify-content-center">
+					<div class="col-6 col-sm-4 align-self-center">
 						<img class="img-fluid contact-img" src="./img/Doctor.svg" alt="Doctor">
 					</div>
-					<div class="col-6 justify-content-start">
-						<h2 class="contact-header">The Best<br> Vetenarians in<br> all Branches</h2>
+					<div class="col-md-1 d-sm-none"></div>
+					<div class="col-12 col-lg-6 justify-content-start align-self-center">
+						<h2 class="contact-header text-center">The Best<br> Vetenarians in<br> all Branches</h2>
 						<p class="contact-subtext">
 							All veternarinas are expersts in their fiields and graduated from the best universities , all of our veetanarians are always ready to work and eliver the best dservice
 						</p>
